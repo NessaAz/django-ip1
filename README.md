@@ -46,7 +46,7 @@
 
 ## Authors
 
-* **Vanessa Azenwa Shiundu** - *Initial work* - [GitHub Profile](https://github.com/NessaAz)
+* **Vanessa Azenwa Shiundu** - *Initial work* - [NessaAz](https://github.com/NessaAz)
 
 
 ## License
