@@ -1,5 +1,5 @@
 # Snapshots app
-
+* A light-weight Python application made with the Django framework that allows users to scroll through and view pictures(snaps) as well as share the pictures via a link
 
 
 ## Getting Started
@@ -7,27 +7,11 @@
 
 
 ### Prerequisites
-
-
-
-### Installing
-
-
-
-## Running the tests
-
-
-
-### Break down into end to end tests
-
-
-
-### Coding style tests
-
+* install django 4.0.4
 
 
 ## Deployment
-
+* deployed on heroku
 
 
 ## Built With
@@ -37,11 +21,7 @@
 * [heroku](https://www.heroku.com/home) - Used to deploy application
 
 ## Contributing
-
-
-
-## Versioning
-
+* fork the repository and commit the changes under a new-contributing branch
 
 
 ## Authors
@@ -53,8 +33,4 @@
 
 This project is licensed under the MIT License 
 
-## Acknowledgments
-
-* 
-* 
-* 
+ 
