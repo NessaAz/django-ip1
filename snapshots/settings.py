@@ -140,4 +140,4 @@ MEDIA_ROOT = BASE_DIR / 'media/'
 
 
 # Indicates the frontend framework django crispy forms will use
-CRISPY_TEMPLATE_PACK = 'bootstrap5'
+CRISPY_TEMPLATE_PACK = 'bootstrap3'
