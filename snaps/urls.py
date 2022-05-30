@@ -1,11 +1,11 @@
-from django.urls import re_path as path
+from django.urls import re_path as url, path
+from . import views
 from .views import PhotoListView, PhotoDetailView, PhotoTagListView
 
-app_name = 'snaps'
-
-urlpatterns = [ 
+urlpatterns = [
+    #url("", views.welcome, name="welcome"),    
     path('', PhotoListView.as_view(), name='list'),
     path('tag/<slug:tag>/', PhotoTagListView.as_view(), name='tag'),
-    path('snaps/<int:pk>/', PhotoDetailView.as_view(), name='detail'),
+    path('photo/<int:pk>/', PhotoDetailView.as_view(), name='detail'),
 ]
 

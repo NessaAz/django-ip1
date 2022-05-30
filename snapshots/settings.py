@@ -32,7 +32,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'bootstrap3',
     'crispy_forms',
     'taggit',
     'snaps',
@@ -140,4 +139,4 @@ MEDIA_ROOT = BASE_DIR / 'media/'
 
 
 # Indicates the frontend framework django crispy forms will use
-CRISPY_TEMPLATE_PACK = 'bootstrap3'
+CRISPY_TEMPLATE_PACK = 'bootstrap5'
