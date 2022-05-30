@@ -12,11 +12,11 @@ def welcome(request):
 
 class PhotoListView(ListView):    
     model = Photo     
-    template_name = 'photoapp/list.html'
+    template_name = 'snaps/list.html'
     context_object_name = 'photos'
 
 class PhotoTagListView(PhotoListView):    
-    template_name = 'photoapp/taglist.html'
+    template_name = 'snaps/taglist.html'
 
     # Custom method
     def get_tag(self):
