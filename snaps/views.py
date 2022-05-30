@@ -12,7 +12,7 @@ from django.http import HttpResponse
 class PhotoListView(ListView):    
     model = Photo     
     template_name = 'snaps/list.html'
-    context_object_name = 'photos'
+    context_object_name = 'photos'    
 
 class PhotoTagListView(PhotoListView):    
     template_name = 'snaps/taglist.html'
