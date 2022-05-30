@@ -8,6 +8,8 @@
 
 ### Prerequisites
 * install django 4.0.4
+* git & GitHub
+* virtual environment (venv)
 
 
 ## Deployment
