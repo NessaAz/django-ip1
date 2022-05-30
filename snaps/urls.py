@@ -6,5 +6,6 @@ urlpatterns = [
     #url("", views.welcome, name="welcome"),    
     path('', PhotoListView.as_view(), name='list'),
     path('tag/<slug:tag>/', PhotoTagListView.as_view(), name='tag'),
+    path('photo/<int:pk>/', PhotoDetailView.as_view(), name='detail'),
 ]
 
