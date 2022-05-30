@@ -32,9 +32,9 @@
 
 ## Built With
 
-* [django] - The web framework used
-* [pipenv]- Dependency Management
-* [heroku]- Used to deploy application
+* [django](https://www.djangoproject.com/) - The web framework used
+* *pipenv*- Dependency Management
+* [heroku](https://www.heroku.com/home) - Used to deploy application
 
 ## Contributing
 
