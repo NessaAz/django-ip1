@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    
+    'taggit',
     'snaps',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -70,6 +70,11 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'snapshots.wsgi.application'
+
+# Django taggit
+
+TAGGIT_CASE_INSENSITIVE = True
+
 
 
 # Database

@@ -20,5 +20,5 @@ from django.urls import re_path as url, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url('snaps/',include('snaps.urls'))
+    path('',include('snaps.urls'))
 ]
