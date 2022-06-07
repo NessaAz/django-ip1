@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 gunicorn = "*"
+whitenoise = "*"
+python-decouple = "*"
+django-database-url = "*"
 
 [dev-packages]
 
