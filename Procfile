@@ -1,1 +1,1 @@
-web: gunicorn snapshots:wsgi
+web: gunicorn snapshots:wsgih

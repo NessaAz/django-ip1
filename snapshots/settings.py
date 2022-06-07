@@ -106,15 +106,6 @@ TAGGIT_CASE_INSENSITIVE = True
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'snapshots',
-        'USER': 'vanessa',
-        'PASSWORD':'password1',
-    }
-}
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
